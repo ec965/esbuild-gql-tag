@@ -22,3 +22,8 @@ Summary
   'node out.js' ran
     1.58 ± 0.03 times faster than 'node runtime.js'
 ```
+
+## Installation & Usage
+
+This is only a proof of concept.
+This is not a published package.
