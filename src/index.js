@@ -6,7 +6,7 @@ function plugin() {
   const fs = require("fs");
 
   return {
-    name: "graphql-tag",
+    name: "gql-tag",
     setup(build) {
       build.onLoad({ filter: /\.(graphql|gql)$/ }, async (args) => {
         let code = await fs.promises.readFile(args.path, { encoding: "utf8" });

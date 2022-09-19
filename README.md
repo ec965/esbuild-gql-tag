@@ -1,4 +1,4 @@
-# esbuild-graphql-tag
+# esbuild-gql-tag
 
 An esbuild plugin to parse `.graphql` files into an AST at compile time.
 
