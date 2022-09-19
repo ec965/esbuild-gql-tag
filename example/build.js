@@ -1,5 +1,7 @@
 require("esbuild")
   .build({
+    platform: "node",
+    logLevel: "info",
     entryPoints: ["index.js"],
     bundle: true,
     outfile: "out.js",

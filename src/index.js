@@ -12,7 +12,6 @@ function plugin() {
         let code = await fs.promises.readFile(args.path, { encoding: "utf8" });
         let gqlAst = gql(code);
         let contents = `var g = ${JSON.stringify(gqlAst)};\nexport default g;`;
-        console.log(contents);
         return { contents, loader: "js" };
       });
     },
